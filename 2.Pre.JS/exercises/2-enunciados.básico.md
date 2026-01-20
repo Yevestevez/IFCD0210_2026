@@ -12,7 +12,7 @@
 
 5. Declara dos variables de tipo string. Imprime por consola el resultado de concatenarlas.
 
-6. Crea una función que imprima por consola el string 'Hello World'.
+6. Crea una función que imprima por consola el string 'Hello World', recibido como argumento.
 
 7. Crea una función que, al ser llamada, imprima por consola el resultado de la multiplicación de dos números introducidos como parámetros.
 
