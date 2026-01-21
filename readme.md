@@ -104,7 +104,7 @@ Formador / Desarrollador Web FullStack
 
 ## Semana 2 (Enero)
 
-### Día 4 (L - 19/01/2026) - ES 01
+### Día 1 (L - 19/01/2026) - ES 01
 
 - Presentación de JS
   - Entornos de ejecución
@@ -115,9 +115,7 @@ Formador / Desarrollador Web FullStack
   - Modelo mental
   - Mutables v. inmutables
 
-<!--
-
-### Día 5 (M - 20/01/2026) - ES 02
+### Día 2 (M - 20/01/2026) - ES 02
 
 - Conceptos clave de JS (continuación)
   - Sentencias
@@ -128,10 +126,22 @@ Formador / Desarrollador Web FullStack
 
 Ejercicios de introducción a JS
 
-### Día 6 (X - 21/01/2026) - ES 03
+<!--
+### Día 3 (X - 21/01/2026) - ES 03
 
-### Día  (J - 22/01/2026) - ES 04
+ - Funciones
 
-### Día 6 (V - 23/01/2026) - ES 05
+Ejercicios de introducción a JS
 
+### Día 4 (J - 22/01/2026) - ES 04
+
+- Estructuras de control
+  - Condicionales
+  - Iteraciones
+
+Ejercicios de introducción a JS
+
+### Día 5 (V - 23/01/2026) - ES 05
+
+Ejercicios de introducción a JS: bloque 2
 -->
