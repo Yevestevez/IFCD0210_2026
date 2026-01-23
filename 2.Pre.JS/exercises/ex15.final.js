@@ -28,6 +28,7 @@ function validationInput(n) {
     } else if (n < 1 || n > 10) {
         index = 2;
     }
+
     return messages[index];
 }
 
@@ -35,9 +36,8 @@ function game() {
     const name = prompt('Dime tu nombre? ');
     console.log(`Hola ${name}`);
     console.log('Escribe Exit para terminar');
-
     let more = true;
-    
+
     while (more) {
         const randonN = randomNumber();
         console.log('----------------------------------');
@@ -59,6 +59,7 @@ function game() {
             console.log(`Lo siento ${name}, el número correcto era ${randonN}`);
         }
     }
+
     console.log(`Gracias por jugar, ${name}`);
 }
 
