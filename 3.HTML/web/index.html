@@ -29,20 +29,121 @@
   </script>
 </head>
 
-<body>
-  <h1>Mi primer página web</h1>
-  <p>Hola Mundo</p>
-  <p lang="en">Hello World</p>
+<!-- Etiquetas de sectioning:
+1. body
+2. section
+3. header
+4. footer
+5. article
+6. nav
+7. aside
+8. h1, h2, h3, h4, h5, and h6
+9. hgroup
+10.address
+-->
 
-  <ul>
-    <li>uno</li>
-    <li>dos</li>
-    <li>tres</li>
-  </ul>
-  <a href="http://www.google.com">Google</a>
-  <div>
-    <img src="./web-612x612.jpg" alt="Representación simbólica de una web" width="200">
-  </div>
+<!-- Etiquetas de agrupamiento:
+1. p
+2. hr
+3. pre
+4. blockquote
+5. ol and ul
+6. menu
+7. li
+8. dl, dt and dd
+9. figure and figcaption
+10. main
+11. div -->
+
+<body>
+
+  <header>
+    <hgroup>
+      <h1>Porfolio de Pepe Pérez</h1>
+      <p>Desarrollador web</p>
+    </hgroup>
+    <nav>
+      <menu>
+        <li><a href="#personal-info">Información personal</a></li>
+        <li><a href="#projects">Proyectos</a></li>
+        <li><a href="#contact">Contacto</a></li>
+      </menu>
+    </nav>
+  </header>
+
+  <main>
+    <section id="personal-info" aria-label="Información personal">
+      <h2>Información personal</h2>
+      <p>Soy un desarrollador web.</p>
+      <p lang="en">I am a web developer.</p>
+      <div>
+        <img src="./web-612x612.jpg" alt="Representación simbólica de una web" width="200">
+      </div>
+    </section>
+    <section id="projects" aria-label="Proyectos">
+      <header>
+        <h2>Proyectos</h2>
+        <nav>
+          <ul>
+            <li><a href="#project1">Proyecto 1</a></li>
+            <li><a href="#project2">Proyecto 2</a></li>
+          </ul>
+        </nav>
+      </header>
+      <article id="project1">
+        <h3>Proyecto 1: Angular</h3>
+        <blockquote cite="https://angular.dev/" lang="en">
+          The framework for building scalable web apps with confidence<br>
+          <cite>https://angular.dev/</cite>
+        </blockquote>
+        <p>Descripción del proyecto 1</p>
+      </article>
+      <article id="project2">
+        <h3>Proyecto 2: código en JS</h3>
+        <p>Descripción del proyecto 2</p>
+        <hr>
+        <pre>
+          const x = 10;
+          const y = 20;
+          console.log(x * y);
+        </pre>
+        <figure>
+          <figcaption>Código en JavaScript</figcaption>
+          <img src="./project.sample.png" alt="" width="200">
+        </figure>
+        <p>
+          Este proyecto utiliza JavaScript para realizar cálculos simples.
+        </p>
+        <dl>
+          <dt>Lenguaje</dt>
+          <dd>JavaScript</dd>
+          <dt>Funcionalidad</dt>
+          <dd>Cálculos matemáticos</dd>
+        </dl>
+      </article>
+      <aside>
+        <h2>Tecnologías</h2>
+        <p><strong>HTML</strong>, <strong>CSS</strong>, <strong>JavaScript</strong></p>
+      </aside>
+    </section>
+    <section id="contact" aria-label="Contacto">
+      <h2>Contacto</h2>
+      <p>¿Quieres contactar conmigo?</p>
+    </section>
+    <aside>
+      <h2>Información adicional</h2>
+      <p>Aquí hay algunos datos adicionales sobre mí.</p>
+    </aside>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Mi primer página web</p>
+    <address><a href="mailto:pepe.perez@example.com">pepe.perez@example.com</a></address>
+    <ul>
+      <li><a href="https://twitter.com/pepeperez">Twitter</a></li>
+      <li><a href="https://linkedin.com/in/pepeperez">LinkedIn</a></li>
+    </ul>
+  </footer>
 </body>
 
 </html>
